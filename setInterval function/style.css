@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #242e77;
+  font-family: 'Roboto', sans-serif;
+  padding: 7%;
+}
+
+.clockBox {
+  margin: 0 auto;
+  padding: 0 15px;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.clockBox .clock {
+  font: 80px/1.6 'Oswald', sans-serif;
+}
+
+.clockBox .clock span {
+  display: inline-block;
+  width: 120px;
+  position: relative;
+}
+
+.clockBox .clock span:before {
+  content: ':';
+  position: absolute;
+  top: -5px;
+  left: -22px;
+}
+
+.clockBox .clock span:first-child:before {
+  display: none;
+}
