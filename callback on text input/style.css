@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px/1.4 'Montserrat', sans-serif;
+  padding: 100px;
+  background: #242e77;
+}
+
+form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form .row {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 7px;
+  font: 18px/1.4 'Montserrat', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+}
+
+form input.highlight,
+form textarea.highlight {
+  box-shadow: 0 0 3px 0 #242e77;
+}
+
+form textarea {
+  height: 150px;
+  min-height: 150px;
+}
+
+form button {
+  background: #242e77;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font: 16px/1.4 'Montserrat', sans-serif;
+}
+
+form button:hover {
+  background: #1c225c;
+}
